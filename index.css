@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
-@import url(/variable.css);
-@import url(/util.css);
-@import url(/documentation/documentation.css);
-@import url(/components/avatar/avatar.css);
+@import url('/variable.css');
+@import url('/util.css');
+@import url('/documentation/documentation.css');
+@import url('/components/avatar/avatar.css');
 
 *{
     font-family: 'Ubuntu', sans-serif;
@@ -19,7 +19,7 @@ html{
     font-size: 2rem;
     font-weight: 700;
     color: aliceblue;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 16px;
     display: flex;
     height: 9rem;
     align-items: center;
@@ -37,7 +37,6 @@ html{
     display: flex;
     list-style: none;
     font-size: 1rem;
-    /* margin-left: auto; */
 }
 
 .social{

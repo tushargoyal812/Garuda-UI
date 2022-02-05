@@ -1,8 +1,6 @@
-@import url(/index.css);
-/* @import url(/variable.css);
-@import url(/documentation/documentation.css); */
+@import url('/index.css');
 
-.badges {
+.container-of-badge {
     width: 25rem;
     margin: auto;
     border: 2px solid gray;
@@ -14,28 +12,28 @@
     background-color: aliceblue;
 }
 
-.badge {
+.icon-size {
     font-size: 3rem;
     margin: 2rem;
 }
 
-.fa-spotify {
+.icon-1 {
     color: #1DB954;
     position: relative;
 }
 
-.fa-facebook-square {
+.icon-2 {
     color: #4267B2;
     position: relative;
     background-color: #fff;
 }
 
-.fa-whatsapp-square {
+.icon-3 {
     color: #25D366;
     position: relative;
 }
 
-.icon {
+.badge {
     border-radius: 50%;
     width: 1.4rem;
     height: 1.4rem;
