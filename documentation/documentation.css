@@ -1,12 +1,12 @@
-@import url(/util.css);
-@import url(/index.css);
+@import url('/util.css');
+@import url('/index.css');
 
 
-.documentation{
+.main-with-sidebar{
     display: flex;
 }
 
-.doc-introduction{
+.headings{
     font-size: 3rem;
     margin: 2rem 0rem;
 }
@@ -14,7 +14,7 @@
 .sidebar-wrapper{
     box-shadow: 5px 5px 5px gray;
     height: 35rem;
-    width: 30rem;
+    width: 23rem;
 }
 
 .sidebar-list{
@@ -44,14 +44,14 @@
     color: var(--primary-color);
 }
 
-.doc-main{
+.main-section{
     color: var(--secondary-color);
     margin:2rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
 }
 
-.install-details{
-    margin: 2rem;
+.heading-details{
+    margin: 1rem 0rem;
 }
 
 .hr-margin{

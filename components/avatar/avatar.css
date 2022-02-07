@@ -1,0 +1,39 @@
+@import url('/index.css');
+
+.avatar-img {
+    width: 70%;
+    height: 5rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: aliceblue;
+}
+
+.avatar {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.sm {
+    height: 2rem;
+    width: 2rem;
+}
+
+.md {
+    height: 3rem;
+    width: 3rem;
+}
+
+.lg {
+    height: 4rem;
+    width: 4rem;
+}
+
+.sq {
+    border-radius: 3px;
+}

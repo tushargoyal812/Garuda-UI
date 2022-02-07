@@ -1,19 +1,22 @@
-
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.btn-radius{
+.btn-radius {
     border-radius: 4px;
 }
 
-.anchor-style{
+.anchor-style {
     text-decoration: none;
 }
 
-.pointer{
+.pointer {
     cursor: pointer;
+}
+
+iframe {
+    margin-top: 2rem;
 }

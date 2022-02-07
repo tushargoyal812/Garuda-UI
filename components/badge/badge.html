@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badge</title>
+    <link rel="stylesheet" href="badge.css">
+    <script src="https://kit.fontawesome.com/108bfd668b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="landing-header">
+        <nav class="navbar">
+            Garuda UI
+            <ul class="nav-items">
+                <!-- <li><a class="anchor-style pointer" href="">Home</a></li> -->
+                <li><a class="nav-icons anchor-style pointer" href="/documentation/documentation.html">documentation</a>
+                </li>
+            </ul>
+            <div class="social">
+                <a href="https://github.com/tushargoyal812" class="nav-icons anchor-style"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://twitter.com/tushargoyal29" class="nav-icons anchor-style"><i
+                        class="fab fa-twitter-square"></i></a>
+                <a href="https://www.linkedin.com/in/tushargoyal29/" class="nav-icons anchor-style"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+        </nav>
+    </header>
+    <div class="main-with-sidebar">
+        <div class="sidebar-wrapper">
+            <aside class="sidebar">
+                <h1>Get started</h1>
+                <hr class="hr-margin">
+                <ul class="sidebar-list">
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/documentation/documentation.html">Introduction</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Color</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Typography</a></li>
+                </ul>
+                <h1>Components</h1>
+                <hr class="hr-margin">
+                <ul class="sidebar-list">
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/avatar/avatar.html">Avatar</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Alert</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links page-active" href="">Badge</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Cards</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Image</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Input</a></li>
+                </ul>
+            </aside>
+        </div>
+        <main class="main-section">
+            <h1 class="headings">Badge</h1>
+            <p class="heading-details">
+                Badges are small circles, positioned either at top-right or bottom-right of the parent component. Badge
+                can be used to display numbers, online / offline status, depending on where they are used.
+            </p>
+            <hr class="hr-margin">
+            <h2>Badge on icon</h2>
+            <p class="heading-details">
+                badge on icon can be used for showing notifications on any icon.
+            </p>
+            <section class="container-of-badge">
+                <i class="fab fa-spotify icon-1 icon-size">
+                    <div class="badge">5</div>
+                </i>
+                <i class="fab fa-facebook-square icon-2 icon-size">
+                    <div class="badge">9</div>
+                </i>
+                <i class="fab fa-whatsapp-square icon-3 icon-size">
+                    <div class="badge">8</div>
+                </i>
+            </section>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ci%2520class%253D%2522fab%2520fa-spotify%2520icon-1%2520icon-size%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E5%253C%252Fdiv%253E%250A%2520%253C%252Fi%253E%250A%2520%253Ci%2520class%253D%2522fab%2520fa-facebook-square%2520icon-2%2520icon-size%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E9%253C%252Fdiv%253E%250A%2520%253C%252Fi%253E%250A%2520%253Ci%2520class%253D%2522fab%2520fa-whatsapp-square%2520icon-3%2520icon-size%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge%2522%253E8%253C%252Fdiv%253E%250A%2520%253C%252Fi%253E%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520"
+                style="width: 100%; height: 228px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr class="hr-margin">
+            <h2>Badge on avatar</h2>
+            <p class="heading-details">
+                Badge on Avatar is used to show the current status of a user.
+            </p>
+            <section class="avatar-img">
+                <div class="badge-on-avatar">
+                    <img class="avatar" src="/images/random.png" alt="avatar-1" srcset="">
+                    <div class="online-badge"></div>
+                </div>
+                <div class="badge-on-avatar">
+                    <img class="avatar" src="/images/shinchan.jpg" alt="avatar-3" srcset="">
+                    <div class="offline-badge"></div>
+                </div>
+                <div class="badge-on-avatar">
+                    <img class="avatar" src="/images/khaby.png" alt="avatar-2" srcset="">
+                    <div class="dnd-badge"></div>
+                </div>
+            </section>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge-on-avatar%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522%252Fimages%252Frandom.png%2522%2520alt%253D%2522avatar-1%2522%2520srcset%253D%2522%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522online-badge%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-on-avatar%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522%252Fimages%252Fshinchan.jpg%2522%2520alt%253D%2522avatar-3%2522%2520srcset%253D%2522%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522offline-badge%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge-on-avatar%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522%252Fimages%252Fkhaby.png%2522%2520alt%253D%2522avatar-2%2522%2520srcset%253D%2522%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522dnd-badge%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </main>
+    </div>
+    <footer class="name-footer">
+        <p class="footer-text">Design and developed by <span class="text-primary">tushar goyal</span></p>
+    </footer>
+</body>
+
+</html>
