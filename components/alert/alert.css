@@ -2,7 +2,7 @@
 
 
 .alert-bg {
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 
 .alert-container {
@@ -22,45 +22,45 @@
     padding: 1rem 2rem 1rem 0.7rem;
     margin: 0.5rem;
     border-radius: 5px;
-    color: #fff;
+    color: var(--white-color);
     width: 80%;
 }
 
 .information {
-    background-color: rgb(99, 181, 231);
+    background-color: var(--information-color);
 }
 
 .success {
-    background-color: rgba(38, 189, 18, 0.726);
+    background-color: var(--success-color);
 }
 
 .error {
-    background-color: rgb(248, 64, 64);
+    background-color: var(--danger-color);
 }
 
 .warning {
-    background-color: orange;
+    background-color: var(--warning-color);
 }
 
 
 .information-border {
-    border: 2px solid rgb(99, 181, 231);
-    color: rgb(99, 181, 231);
+    border: 2px solid var(--information-color);
+    color: var(--information-color);
 }
 
 .success-border {
-    border: 2px solid rgba(38, 189, 18, 0.726);
-    color: rgba(38, 189, 18, 0.726);
+    border: 2px solid var(--success-color);
+    color: var(--success-color);
 }
 
 .error-border {
-    border: 2px solid rgb(248, 64, 64);
-    color: rgb(248, 64, 64);
+    border: 2px solid var(--danger-color);
+    color: var(--danger-color);
 }
 
 .warning-border {
-    border: 2px solid orange;
-    color: orange;
+    border: 2px solid var(--warning-color);
+    color: var(--warning-color);
 }
 
 .fa-info-circle {
