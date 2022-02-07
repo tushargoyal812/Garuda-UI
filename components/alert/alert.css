@@ -1,0 +1,80 @@
+@import url('/index.css');
+
+
+.alert-bg {
+    background-color: #fff;
+}
+
+.alert-container {
+    width: 70%;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 22rem;
+    border-radius: 5px;
+    background-color: var(--bg-color);
+}
+
+.alert {
+    padding: 1rem 2rem 1rem 0.7rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    color: #fff;
+    width: 80%;
+}
+
+.information {
+    background-color: rgb(99, 181, 231);
+}
+
+.success {
+    background-color: rgba(38, 189, 18, 0.726);
+}
+
+.error {
+    background-color: rgb(248, 64, 64);
+}
+
+.warning {
+    background-color: orange;
+}
+
+
+.information-border {
+    border: 2px solid rgb(99, 181, 231);
+    color: rgb(99, 181, 231);
+}
+
+.success-border {
+    border: 2px solid rgba(38, 189, 18, 0.726);
+    color: rgba(38, 189, 18, 0.726);
+}
+
+.error-border {
+    border: 2px solid rgb(248, 64, 64);
+    color: rgb(248, 64, 64);
+}
+
+.warning-border {
+    border: 2px solid orange;
+    color: orange;
+}
+
+.fa-info-circle {
+    margin: 0rem 1.2rem;
+}
+
+.fa-check-circle {
+    margin: 0rem 1.2rem;
+}
+
+.fa-skull-crossbones {
+    margin: 0rem 1.2rem;
+}
+
+.fa-exclamation-triangle {
+    margin: 0rem 1.2rem;
+}

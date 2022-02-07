@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert</title>
+    <link rel="stylesheet" href="alert.css">
+    <script src="https://kit.fontawesome.com/108bfd668b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="landing-header">
+        <nav class="navbar">
+            Garuda UI
+            <ul class="nav-items">
+                <li><a class="nav-icons anchor-style pointer" href="/documentation/documentation.html">documentation</a>
+                </li>
+            </ul>
+            <div class="social">
+                <a href="https://github.com/tushargoyal812" class="nav-icons anchor-style"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://twitter.com/tushargoyal29" class="nav-icons anchor-style"><i
+                        class="fab fa-twitter-square"></i></a>
+                <a href="https://www.linkedin.com/in/tushargoyal29/" class="nav-icons anchor-style"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+        </nav>
+    </header>
+    <div class="main-with-sidebar">
+        <aside class="sidebar-wrapper">
+            <div class="sidebar">
+                <h1>Get started</h1>
+                <hr class="hr-margin">
+                <ul class="sidebar-list">
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Introduction</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Color</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Typography</a></li>
+                </ul>
+                <h1>Components</h1>
+                <hr class="hr-margin">
+                <ul class="sidebar-list">
+                    <li class="sidebar-items"><a class="anchor-style links page-active" href="">Avatar</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Alert</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/badge/badge.html">Badge</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Cards</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Image</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Input</a></li>
+                </ul>
+            </div>
+        </aside>
+        <main class="main-section">
+            <h1 class="headings">Alert</h1>
+            <p class="heading-details">
+                An alert displays a short, important message in a way that attracts the user's attention without
+                interrupting the user's task,there are different types of alerts-error alert, success alert, information
+                alert and warning alert.
+            </p>
+            <hr class="hr-margin">
+            <h2>Simple Alert</h2>
+            <p class="heading-details">
+                Simple Alerts can be created using alert class, followed by the variant name.
+            </p>
+            <section class="alert-container">
+                <p class="alert information"><i class="fas fa-info-circle"></i><strong>Information Text</strong></p>
+                <p class="alert success"><i class="fas fa-check-circle"></i><strong>Success Text</strong></p>
+                <p class="alert error"><i class="fas fa-skull-crossbones"></i><strong>Error Text</strong></p>
+                <p class="alert warning"><i class="fas fa-exclamation-triangle"></i><strong>Warning Text</strong></p>
+            </section>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522alert%2520information%2522%253E%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%253Cstrong%253EInformation%2520Text%253C%252Fstrong%253E%253C%252Fp%253E%250A%253Cp%2520class%253D%2522alert%2520success%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%253Cstrong%253ESuccess%2520Text%253C%252Fstrong%253E%253C%252Fp%253E%250A%253Cp%2520class%253D%2522alert%2520error%2522%253E%253Ci%2520class%253D%2522fas%2520fa-skull-crossbones%2522%253E%253C%252Fi%253E%253Cstrong%253EError%2520Text%253C%252Fstrong%253E%253C%252Fp%253E%250A%253Cp%2520class%253D%2522alert%2520warning%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%253Cstrong%253EWarning%2520Text%253C%252Fstrong%253E%253C%252Fp%253E"
+                style="width: 100%; height: 135px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr class="hr-margin">
+            <h2>Outline Alert</h2>
+            <p class="heading-details">
+                Outline alerts are created by using alert class, followed by outline-variant.
+            </p>
+            <section class="alert-container">
+                <p class="alert information-border alert-bg"><i class="fas fa-info-circle"></i><strong>Information
+                        Text</strong></p>
+                <p class="alert success-border alert-bg"><i class="fas fa-check-circle"></i><strong>Success
+                        Text</strong></p>
+                <p class="alert error-border alert-bg"><i class="fas fa-skull-crossbones"></i><strong>Error
+                        Text</strong></p>
+                <p class="alert warning-border alert-bg"><i class="fas fa-exclamation-triangle"></i><strong>Warning
+                        Text</strong></p>
+            </section>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cp%2520class%253D%2522alert%2520information-border%2520alert-bg%2522%253E%253Ci%2520class%253D%2522fas%2520fa-info-circle%2522%253E%253C%252Fi%253E%250A%253Cstrong%253EInformation%2520Text%253C%252Fstrong%253E%250A%253C%252Fp%253E%250A%253Cp%2520class%253D%2522alert%2520success-border%2520alert-bg%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%253Cstrong%253ESuccess%2520Text%253C%252Fstrong%253E%250A%253C%252Fp%253E%250A%253Cp%2520class%253D%2522alert%2520error-border%2520alert-bg%2522%253E%253Ci%2520class%253D%2522fas%2520fa-skull-crossbones%2522%253E%253C%252Fi%253E%250A%253Cstrong%253EError%2520Text%253C%252Fstrong%253E%250A%253C%252Fp%253E%250A%253Cp%2520class%253D%2522alert%2520warning-border%2520alert-bg%2522%253E%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%253Cstrong%253EWarningText%253C%252Fstrong%253E%250A%253C%252Fp%253E"
+                style="width: 100%; height: 283px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </main>
+    </div>
+    <footer class="name-footer">
+        <p class="footer-text">Design and developed by <span class="text-primary">tushar goyal</span></p>
+    </footer>
+</body>
+
+</html>
