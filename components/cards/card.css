@@ -234,9 +234,5 @@
     display: flex;
 }
 
-.horizontal-btn{
-    /* align-self: flex-end; */
-}
 
-<!--here,best seller badge and out of stock is optional and disabled for 
-   this card,you can active these by removing "display-none" class-->
+
