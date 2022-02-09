@@ -3,6 +3,7 @@
 
 .input-parent-container{
     width: 70%;
+
     border: 2px solid gray;
     border-radius: 5px;
     background-color: var(--bg-color);
@@ -36,7 +37,11 @@
 
 .error{
     border:2px solid var(--danger-color);
+
+    color: var(--danger-color);
 }
+
+
 
 
 .error:focus{
@@ -54,6 +59,7 @@
 .success-password{
     color: var(--success-color);
 }
+ 
 
 .success:focus{
     outline: none;
