@@ -108,4 +108,8 @@ html{
     .headings{
         line-height: 3rem;
     }
+    .horizontal-card{
+        display: flex;
+        flex-direction: column;
+    }
 }
