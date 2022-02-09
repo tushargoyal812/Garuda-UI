@@ -3,22 +3,25 @@
 @import url('/util.css');
 @import url('/documentation/documentation.css');
 @import url('/components/avatar/avatar.css');
+@import url('/components/badge/badge.css');
+@import url('/components/alert/alert.css');
+@import url('/components/button/button.css');
 
-*{
+* {
     font-family: 'Ubuntu', sans-serif;
 }
 
-html{
+html {
     font-size: 100%;
 }
 
-.navbar{
+.navbar {
     padding: 2rem;
     width: 100%;
     background-color: var(--primary-color);
     font-size: 2rem;
     font-weight: 700;
-    color: aliceblue;
+    color: var(--bg-color);
     border-bottom-left-radius: 16px;
     display: flex;
     height: 9rem;
@@ -26,31 +29,32 @@ html{
     flex-wrap: wrap;
 }
 
-.landing-header{
+.landing-header {
     width: 100%;
 }
-.text-primary{
+
+.text-primary {
     color: var(--primary-color);
 }
 
-.nav-items{
+.nav-items {
     display: flex;
     list-style: none;
     font-size: 1rem;
 }
 
-.social{
+.social {
     font-size: 3rem;
     margin-left: auto;
     display: flex;
 }
 
-.nav-icons{
-    color: aliceblue;
+.nav-icons {
+    color: var(--bg-color);
     margin: 0.5rem;
 }
 
-.main-landing{
+.main-landing {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,22 +66,22 @@ html{
     margin: 3rem;
 }
 
-.small-landing-text{
+.small-landing-text {
     font-size: 1.5rem;
     color: var(--secondary-color);
     margin: 1.5rem;
 }
 
-.start-btn{
+.start-btn {
     padding: 1.5rem 3rem;
     border: none;
     background-color: var(--primary-color);
     font-size: 1.5rem;
     font-weight: 700;
-    color: aliceblue;
+    color: var(--bg-color);
 }
 
-.name-footer{
+.name-footer {
     font-size: 1.2rem;
     color: var(--secondary-color);
     font-weight: 700;
@@ -89,7 +93,7 @@ html{
     flex-wrap: wrap;
 }
 
-.footer-text{
+.footer-text {
     margin-top: auto;
     margin-bottom: 1.5rem;
 }
@@ -97,15 +101,15 @@ html{
 
 
 @media only screen and (max-width:600px) {
-    html{
+    html {
         font-size: 70%;
     }
 
-    .sidebar-wrapper{
+    .sidebar-wrapper {
         display: none;
     }
 
-    .headings{
+    .headings {
         line-height: 3rem;
     }
 }

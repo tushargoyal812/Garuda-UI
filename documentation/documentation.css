@@ -13,7 +13,6 @@
 
 .sidebar-wrapper{
     box-shadow: 5px 5px 5px gray;
-    height: 35rem;
     width: 23rem;
 }
 
@@ -30,7 +29,7 @@
 }
 
 .sidebar-items{
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: 3px;
 }
 
