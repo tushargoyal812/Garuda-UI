@@ -1,0 +1,64 @@
+@import url('/index.css');
+
+
+.input-parent-container{
+    width: 70%;
+    margin: auto;
+    border: 2px solid gray;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.input-container{
+    width: 100%;
+}
+
+.input-label{
+    display: block;
+    font-size: 1.5rem;
+}
+
+.text-input{
+    width: 70%;
+    height: 2.5rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.wrong-password{
+    color: red;
+}
+
+.error-validation{
+    color: red;
+}
+
+.error{
+    border:2px solid red;
+}
+
+
+.error:focus{
+   outline: none;
+}
+
+.success{
+    border: 2px solid limegreen;
+}
+
+.success-validation{
+    color: limegreen;
+}
+
+.success-password{
+    color: limegreen;
+}
+
+.success:focus{
+    outline: none;
+ }
