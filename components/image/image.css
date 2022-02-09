@@ -1,0 +1,19 @@
+@import url('/index.css');
+
+
+.image-container{
+    width:70%;
+    margin: auto;
+    border: 2px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    background-color: var(--bg-color);
+}
+
+.round{
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+}
