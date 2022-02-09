@@ -3,13 +3,9 @@
 
 .input-parent-container{
     width: 70%;
-    margin: auto;
     border: 2px solid gray;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
     border-radius: 5px;
+    background-color: var(--bg-color);
 }
 
 .input-container{
@@ -31,15 +27,15 @@
 }
 
 .wrong-password{
-    color: red;
+    color: var(--danger-color);
 }
 
 .error-validation{
-    color: red;
+    color: var(--danger-color);
 }
 
 .error{
-    border:2px solid red;
+    border:2px solid var(--danger-color);
 }
 
 
@@ -48,15 +44,15 @@
 }
 
 .success{
-    border: 2px solid limegreen;
+    border: 2px solid var(--success-color);
 }
 
 .success-validation{
-    color: limegreen;
+    color: var(--success-color);
 }
 
 .success-password{
-    color: limegreen;
+    color: var(--success-color);
 }
 
 .success:focus{
