@@ -1,23 +1,23 @@
 @import url('/index.css');
 
 
-.input-parent-container{
+.input-parent-container {
     width: 70%;
     border: 2px solid gray;
     border-radius: 5px;
     background-color: var(--bg-color);
 }
 
-.input-container{
+.input-container {
     width: 100%;
 }
 
-.input-label{
+.input-label {
     display: block;
     font-size: 1.5rem;
 }
 
-.text-input{
+.text-input {
     width: 70%;
     height: 2.5rem;
     border: 2px solid black;
@@ -26,16 +26,16 @@
     font-size: 1.2rem;
 }
 
-.wrong-password{
+.wrong-password {
     color: var(--danger-color);
 }
 
-.error-validation{
+.error-validation {
     color: var(--danger-color);
 }
 
-.error{
-    border:2px solid var(--danger-color);
+.error {
+    border: 2px solid var(--danger-color);
 
     color: var(--danger-color);
 }
@@ -43,23 +43,23 @@
 
 
 
-.error:focus{
-   outline: none;
+.error:focus {
+    outline: none;
 }
 
-.success{
+.success {
     border: 2px solid var(--success-color);
 }
 
-.success-validation{
+.success-validation {
     color: var(--success-color);
 }
 
-.success-password{
+.success-password {
     color: var(--success-color);
 }
- 
 
-.success:focus{
+
+.success:focus {
     outline: none;
- }
+}

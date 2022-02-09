@@ -6,7 +6,7 @@
 }
 
 
-.mg-auto{
+.mg-auto {
     margin: auto;
 }
 
@@ -26,27 +26,27 @@ iframe {
     margin-top: 2rem;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-.justify-content-center{
+.justify-content-center {
     justify-content: center;
 }
 
-.align-items{
+.align-items {
     align-items: center;
 }
 
-.flex-direction-col{
+.flex-direction-col {
     flex-direction: column;
 }
 
-.flex-direction-row{
+.flex-direction-row {
     flex-direction: row;
 }
 
-.centered{
+.centered {
     display: flex;
     justify-content: center;
     align-items: center;
