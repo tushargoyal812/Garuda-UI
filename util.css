@@ -55,6 +55,10 @@ iframe {
 
 /* margin utils */
 
+.m-0-25{
+    margin: 0.25rem;
+}
+
 .m-1 {
     margin: 1rem;
 }
