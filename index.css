@@ -85,12 +85,25 @@ html {
     font-size: 1.2rem;
     color: var(--secondary-color);
     font-weight: 700;
-    margin-top: 2rem;
     display: flex;
-    height: 8rem;
+    height: 3rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.customize-container{
+    border: 2px solid var(--gray-color);
+    padding: 2rem;
+    width: 20rem;
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+}
+
+.customize-btn{
+    background-color: var(--primary-color);
 }
 
 .footer-text {
