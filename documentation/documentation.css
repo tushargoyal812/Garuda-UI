@@ -13,8 +13,9 @@
 
 .sidebar-wrapper{
     box-shadow: 5px 5px 5px gray;
-    width: 23rem;
-    height: 65rem;
+    width: 40rem;
+    height: 100vh;
+    overflow-y: scroll;
 }
 
 .sidebar-list{
@@ -65,4 +66,15 @@ h1{
 
 .page-active{
     color: var(--primary-color);
+}
+
+.footer-link-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: var(--secondary-color);
 }
