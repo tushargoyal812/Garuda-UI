@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast/Snackbar</title>
+    <link rel="stylesheet" href="/components/toast/toast.css">
+    <script src="https://kit.fontawesome.com/108bfd668b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="landing-header">
+        <nav class="navbar">
+            Garuda UI
+            <ul class="nav-items">
+                <li><a class="nav-icons anchor-style pointer" href="/index.html">Home</a></li>
+            </ul>
+            <div class="social">
+                <a href="https://github.com/tushargoyal812" class="nav-icons anchor-style pointer"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://twitter.com/tushargoyal29" class="nav-icons anchor-style pointer"><i
+                        class="fab fa-twitter-square"></i></a>
+                <a href="https://www.linkedin.com/in/tushargoyal29/" class="nav-icons anchor-style pointer"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+        </nav>
+    </header>
+    <div class="main-with-sidebar">
+        <div class="sidebar-wrapper">
+            <aside class="sidebar">
+                <h1>Get started</h1>
+                <hr class="hr-margin">
+                <ul class="sidebar-list">
+                    <li class="sidebar-items"><a class="anchor-style links "
+                            href="/documentation/documentation.html">Introduction</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Color</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/text-utils/text-utils.html">Typography</a></li>
+                </ul>
+                <h1>Components</h1>
+                <hr class="hr-margin">
+                <ul class="sidebar-list">
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/avatar/avatar.html">Avatar</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/alert/alert.html">Alert</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/badge/badge.html">Badge</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/button/button.html">Button</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="/components/cards/card.html">Cards</a>
+                    </li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/image/image.html">Image</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/input/input.html">Input</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="/components/list/list.html">Lists</a>
+                    </li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/navigation/navigation.html">Navigation</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/modal/modal.html">Modal</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links "
+                            href="/components/ratings/ratings.html">Ratings</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links page-active"
+                            href="/components/toast/toast.html">Toast</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="/components/grid/grid.html">grid</a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+        <main class="main-section">
+            <h1 class="headings">Toast/Snackbar</h1>
+            <p class="heading-details">
+                toast/snackbar used in every website for giving useful information and some error messages if any error
+                occours to the user.These things are very important for user experience.
+            </p>
+            <hr class="hr-margin">
+            <h2>Toast</h2>
+            <p class="heading-details">
+                Toasts are used in many websites for showing some important information to user like connection failed
+                or time out etc.
+            </p>
+            <div class="toast-container mg-auto">
+                <div class="toast">
+                    <div class="content">Connection timed out, please refresh</div>
+                    <div class="retry">Retry</div>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C52%2C18%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522content%2522%253EConnection%2520timed%2520out%2520showing%2520the%2520latest%2520saved%2520versoion%2520of%2520this%2520document%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522retry%2522%253ERetry%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 134px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr class="hr-margin">
+            <h2>Snackbar</h2>
+            <p class="heading-details">
+                toasts and snackbar are same but use differntly in some cases.
+            </p>
+            <div class="toast-container mg-auto">
+                <div class="snackbar">
+                    <div class="snackbar-text">Can't send photo. Retry in 5 seconds. </div>
+                    <a class="retry">RETRY</a>
+                    <a class="cancel">X</a>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C52%2C18%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522snackbar-text%2522%253ECan%27t%2520send%2520photo.%2520Retry%2520in%25205%2520seconds.%2520%253C%252Fdiv%253E%250A%2520%2520%253Ca%2520class%253D%2522retry%2522%253ERETRY%253C%252Fa%253E%250A%2520%2520%253Ca%2520class%253D%2522cancel%2522%253EX%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 152px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </main>
+    </div>
+    <footer class="name-footer">
+        <p class="footer-text">Design and developed by <span class="text-primary">tushar goyal</span></p>
+    </footer>
+</body>
+
+</html>

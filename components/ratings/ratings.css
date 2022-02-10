@@ -1,0 +1,44 @@
+@import url('/index.css');
+
+
+.rating-container{
+    width: 20rem;
+    border: 2px solid var(--gray-color);
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--bg-color);
+}
+
+.star-icon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.star-icon:hover{
+    color: gold;
+}
+
+.colored{
+    color: goldenrod;
+}
+
+.small-rating{
+    font-size: 1rem;
+}
+
+.medium-rating{
+    font-size: 1.5rem;
+}
+
+.large-rating{
+    font-size: 2rem;
+}
+
+.x-large-rating{
+    font-size: 2.5rem;
+}
+
+.xx-large-rating{
+    font-size: 3rem;
+}
+
