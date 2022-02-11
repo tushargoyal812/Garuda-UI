@@ -20,6 +20,11 @@ html {
     font-size: 100%;
 }
 
+.main-heading {
+    font-size: 4rem;
+    line-height: 2rem;
+}
+
 .navbar {
     padding: 2rem;
     width: 100%;
@@ -97,7 +102,7 @@ html {
     flex-wrap: wrap;
 }
 
-.customize-container{
+.customize-container {
     border: 2px solid var(--gray-color);
     padding: 2rem;
     width: 20rem;
@@ -107,7 +112,7 @@ html {
     justify-content: center;
 }
 
-.customize-btn{
+.customize-btn {
     background-color: var(--primary-color);
 }
 
