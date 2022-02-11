@@ -2,67 +2,80 @@
 @import url('/index.css');
 
 
-.main-with-sidebar{
+.main-with-sidebar {
     display: flex;
+    width: 100%;
 }
 
-.headings{
+.headings {
     font-size: 3rem;
     margin: 2rem 0rem;
 }
 
-.sidebar-wrapper{
-    box-shadow: 5px 5px 5px gray;
-    height: 35rem;
-    width: 23rem;
-}
 
-.sidebar-list{
+.sidebar-list {
     list-style: none;
     text-align: center;
     margin: 0rem 2rem;
 }
 
-.sidebar{
+.sidebar {
     color: var(--secondary-color);
-    width: 23rem;
+    width: 22rem;
     text-align: center;
+    padding: 1rem;
+    height: 100vh;
+    overflow-y: scroll;
+    flex-shrink: 0;
+    box-shadow: 2px 2px 5px var(--gray-color);
 }
 
-.sidebar-items{
-    padding: 0.5rem;
+.sidebar-items {
+    padding: 1rem;
     border-radius: 3px;
 }
 
 
-.links{
+.links {
     color: var(--secondary-color);
     border-radius: 3px;
 }
 
-.links:hover{
+.links:hover {
     color: var(--primary-color);
 }
 
-.main-section{
+.main-section {
     color: var(--secondary-color);
-    margin:2rem;
     line-height: 1.5rem;
+    padding: 2rem;
+    flex-grow: 1;
 }
 
-.heading-details{
+.heading-details {
     margin: 1rem 0rem;
 }
 
-.hr-margin{
+.hr-margin {
     margin: 1rem;
 }
 
 
-h1{
+h1 {
     margin-top: 2rem;
 }
 
-.page-active{
+.page-active {
     color: var(--primary-color);
+}
+
+.footer-link-container {
+    display: flex;
+    justify-content:space-evenly;
+    margin: 2rem 0rem;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
