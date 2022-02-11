@@ -10,6 +10,7 @@
 @import url('/components/text-utils/text-utils.css');
 @import url('/components/cards/card.css');
 @import url('/components/navigation/navigation.css');
+@import url('/components/ratings/ratings.css');
 
 * {
     font-family: 'Ubuntu', sans-serif;

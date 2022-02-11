@@ -16,7 +16,6 @@
     color: var(--gray-color);
     border-bottom-left-radius: 16px;
     display: flex;
-    /* height: 5rem; */
     align-items: center;
     flex-wrap: wrap;
     justify-content:space-evenly;
