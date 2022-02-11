@@ -9,7 +9,7 @@
 }
 
 .card-container {
-    width: 25rem;
+    width: 28rem;
     border: 2px solid var(--gray-color);
     margin: auto;
     border-radius: 5px;
@@ -30,7 +30,7 @@
 
 
 .card-main-section {
-    padding: 0rem 1rem;
+    padding: 0rem 0.5rem;
 }
 
 .badge-section {
@@ -188,8 +188,7 @@
 }
 
 .horizontal-card {
-    padding: 0.5rem;
-    width: 30rem;
+    width: 27rem;
 }
 
 
@@ -215,7 +214,7 @@
 
 
 .shadow-card {
-    box-shadow: 0 0 20px 2px var(--gray-color);
+    box-shadow: 5px 5px 5px  var(--gray-color);
 }
 
 
