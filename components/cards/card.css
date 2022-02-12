@@ -241,3 +241,12 @@
     margin-top: 4rem;
     display: flex;
 }
+
+.like-cart{
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    cursor: pointer;
+    color: var(--danger-color);
+}
