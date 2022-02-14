@@ -6,6 +6,11 @@
 @import url('/components/badge/badge.css');
 @import url('/components/alert/alert.css');
 @import url('/components/button/button.css');
+@import url('/components/list/list.css');
+@import url('/components/text-utils/text-utils.css');
+@import url('/components/cards/card.css');
+@import url('/components/navigation/navigation.css');
+@import url('/components/ratings/ratings.css');
 
 * {
     font-family: 'Ubuntu', sans-serif;
@@ -13,6 +18,11 @@
 
 html {
     font-size: 100%;
+}
+
+.main-heading {
+    font-size: 4rem;
+    line-height: 2rem;
 }
 
 .navbar {
@@ -85,12 +95,25 @@ html {
     font-size: 1.2rem;
     color: var(--secondary-color);
     font-weight: 700;
-    margin-top: 2rem;
     display: flex;
-    height: 8rem;
+    height: 3rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.customize-container {
+    border: 2px solid var(--gray-color);
+    padding: 2rem;
+    width: 20rem;
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+}
+
+.customize-btn {
+    background-color: var(--primary-color);
 }
 
 .footer-text {
@@ -105,7 +128,7 @@ html {
         font-size: 70%;
     }
 
-    .sidebar-wrapper {
+    .sidebar {
         display: none;
     }
 

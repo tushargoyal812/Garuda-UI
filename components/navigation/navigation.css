@@ -1,0 +1,113 @@
+@import url('/index.css');
+
+
+.ecom-header-container{
+    border: 2px solid var(--gray-color);
+    border-radius: 5px;
+    background-color: var(--bg-color);
+}
+
+.e-com-navbar {
+    padding: 1rem 1rem;
+    width: 100%;
+    background-color: var(--white-color);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--gray-color);
+    border-bottom-left-radius: 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.e-com-header {
+    width: 100%;
+    box-shadow: 2px 2px 5px var(--gray-color);
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+
+.e-com-nav-items {
+    display: flex;
+    list-style: none;
+    font-size: 1rem;
+}
+
+.e-com-social {
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.e-com-nav-icons {
+    color: var(--gray-color);
+    margin: 0.5rem;
+}
+
+.ecom-cart-btn{
+    color: var(--gray-color);
+}
+
+.ecom-login-container{
+    display: flex;
+}
+
+.search-input{
+    margin: 1rem 0rem;
+    padding: 0.5rem 2.5rem;
+    font-size: 1.2rem;
+    border: 2px solid var(--gray-color);
+    border-radius: 2px;
+}
+
+.search-input{
+    outline: none;
+}
+
+.login-btn{
+    padding: 0.7rem 1.2rem;
+    background-color: var(--gray-color);
+    border:none;
+    color: var(--white-color);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.heart-icon{
+    font-size: 2rem;
+    position: relative;
+}
+
+.heart-icon:hover{
+    color: var(--danger-color);
+}
+
+.cart-icon{
+    font-size: 2rem;
+    position: relative;
+}
+
+.cart-text{
+    font-size: 1rem;
+}
+
+.ecom-badge{
+    border-radius: 50%;
+    width: 1.4rem;
+    height: 1.4rem;
+    background-color: var(--danger-color);
+    font-size: 1rem;
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    top: -1rem;
+    left: 1.3rem;
+}
+
+.color-diff{
+    background-color:blueviolet;
+}

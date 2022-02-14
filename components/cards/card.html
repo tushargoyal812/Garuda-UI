@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <script src="https://kit.fontawesome.com/108bfd668b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/index.css">
+</head>
+
+<body>
+    <header class="landing-header">
+        <nav class="navbar">
+            Garuda UI
+            <ul class="nav-items">
+                <li><a class="nav-icons anchor-style pointer" href="/documentation/documentation.html">documentation</a>
+                </li>
+            </ul>
+            <div class="social">
+                <a href="https://github.com/tushargoyal812" class="nav-icons anchor-style"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://twitter.com/tushargoyal29" class="nav-icons anchor-style"><i
+                        class="fab fa-twitter-square"></i></a>
+                <a href="https://www.linkedin.com/in/tushargoyal29/" class="nav-icons anchor-style"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+        </nav>
+    </header>
+    <div class="main-with-sidebar">
+        <aside class="sidebar">
+            <h1>Get started</h1>
+            <hr class="hr-margin">
+            <ul class="sidebar-list">
+                <li class="sidebar-items"><a class="anchor-style links"
+                        href="/documentation/documentation.html">Introduction</a></li>
+                <li class="sidebar-items"><a class="anchor-style links"
+                        href="/components/text-utils/text-utils.html">Typography</a></li>
+            </ul>
+            <h1>Components</h1>
+            <hr class="hr-margin">
+            <ul class="sidebar-list">
+                <li class="sidebar-items"><a class="anchor-style links "
+                        href="/components/avatar/avatar.html">Avatar</a></li>
+                <li class="sidebar-items"><a class="anchor-style links" href="/components/alert/alert.html">Alert</a>
+                </li>
+                <li class="sidebar-items"><a class="anchor-style links" href="/components/badge/badge.html">Badge</a>
+                </li>
+                <li class="sidebar-items"><a class="anchor-style links" href="/components/button/button.html">Button</a>
+                </li>
+                <li class="sidebar-items"><a class="anchor-style links page-active"
+                        href="/components/cards/card.html">Cards</a>
+                </li>
+                <li class="sidebar-items"><a class="anchor-style links" href="/components/image/image.html">Image</a>
+                </li>
+                <li class="sidebar-items"><a class="anchor-style links" href="/components/input/input.html">Input</a>
+                </li>
+                <li class="sidebar-items"><a class="anchor-style links" href="/components/list/list.html">Lists</a>
+                </li>
+                <li class="sidebar-items"><a class="anchor-style links"
+                        href="/components/navigation/navigation.html">Navigation</a></li>
+                <li class="sidebar-items"><a class="anchor-style links" href="/components/modal/modal.html">Modal</a>
+                </li>
+                <li class="sidebar-items"><a class="anchor-style links"
+                        href="/components/ratings/ratings.html">Ratings</a></li>
+                <li class="sidebar-items"><a class="anchor-style links" href="/components/toast/toast.html">Toast</a>
+                </li>
+                <li class="sidebar-items"><a class="anchor-style links" href="/components/grid/grid.html">grid</a>
+                </li>
+            </ul>
+        </aside>
+        <main class="main-section">
+            <h1 class="headings">Cards</h1>
+            <p class="heading-details">
+                Cards are surfaces that display content and actions on a single topic.
+                They should be easy to scan for relevant and actionable information. Elements, like text and images,
+                should be placed on them in a way that clearly indicates hierarchy.
+            </p>
+            <hr class="hr-margin">
+            <h2>Cards with badges</h2>
+            <p class="heading-details">
+                Card with badge is used to display the products details i.e., best seller, new, Type, Fixed badge,
+                Price, Discount and stock.
+            </p>
+            <div class="card-container">
+                <div class="card">
+                    <div class="badge-section"></div>
+                    <i class="far fa-heart like-cart"></i>
+                    <span class="badge-best-seller">Best seller</span>
+                    <span class="display-none">
+                        <i class="far fa-times-circle cross-icon "></i>
+                    </span>
+                    <span class="out-of-stock display-none">
+                        Out Of Stock
+                    </span>
+                    <div class="card-main-section">
+                        <img src="/images/IMG_20220205_233718.png" class="product-img" alt="">
+                        <main class="middle">
+                            <p class="para">Apple</p>
+                            <div class="small-1">iPhone 13 (256GB) - Midnight</div>
+                            <div class="small-2">₹78900
+                                <span class="real-price">MRP: ₹79900(1% OFF)</span>
+                            </div>
+                        </main>
+                        <div class="btn-section">
+                            <button class="cart-button">
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C52%2C18%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-section%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-best-seller%2522%253EBest%2520seller%253C%252Fspan%253E%250A%2520%2520%253C%21--here%252Ccross%2520icon%2520and%2520out%2520of%2520stock%2520is%2520optional%2520and%2520disabled%2520for%2520%250A%2520%2520%2520this%2520card%252Cyou%2520can%2520active%2520these%2520by%2520removing%2520%2522display-none%2522%2520class--%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522display-none%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-times-circle%2520cross-icon%2520%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522out-of-stock%2520display-none%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Out%2520Of%2520Stock%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-main-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FURL-of-image%2522%2520class%253D%2522product-img%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmain%2520class%253D%2522middle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para%2522%253EApple%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small-1%2522%253EiPhone%252013%2520%28256GB%29%2520-%2520Midnight%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small-2%2522%253E%25E2%2582%25B978900%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522real-price%2522%253EMRP%253A%2520%25E2%2582%25B979900%281%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fmain%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 562px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr class="hr-margin">
+            <h2>Cards with dismiss</h2>
+            <p class="heading-details">
+                In this card we have dismiss button for dismiss this card.
+            </p>
+            <div class="card-container">
+                <div class="card">
+                    <div class="badge-section"></div>
+                    <span class="badge-best-seller display-none">Best seller</span>
+                    <span class="">
+                        <i class="far fa-times-circle cross-icon"></i>
+                    </span>
+                    <span class="out-of-stock display-none">
+                        Out Of Stock
+                    </span>
+                    <div class="card-main-section">
+                        <img src="/images/IMG_20220205_233718.png" class="product-img" alt="">
+                        <main class="middle">
+                            <p class="para">Apple</p>
+                            <div class="small-1">iPhone 13 (256GB) - Midnight</div>
+                            <div class="small-2">₹78900
+                                <span class="real-price">MRP: ₹79900(1% OFF)</span>
+                            </div>
+                        </main>
+                        <div class="btn-section">
+                            <button class="cart-button">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C52%2C18%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-section%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%21--here%252Cbest%2520seller%2520badge%2520and%2520out%2520of%2520stock%2520is%2520optional%2520and%2520disabled%2520for%2520%250A%2520%2520%2520this%2520card%252Cyou%2520can%2520active%2520these%2520by%2520removing%2520%2522display-none%2522%2520class--%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-best-seller%2520display-none%2522%253EBest%2520seller%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-times-circle%2520cross-icon%2520%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522out-of-stock%2520display-none%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Out%2520Of%2520Stock%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-main-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FURL-of-image%2522%2520class%253D%2522product-img%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmain%2520class%253D%2522middle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para%2522%253EApple%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small-1%2522%253EiPhone%252013%2520%28256GB%29%2520-%2520Midnight%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small-2%2522%253E%25E2%2582%25B978900%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522real-price%2522%253EMRP%253A%2520%25E2%2582%25B979900%281%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fmain%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 562px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr class="hr-margin">
+            <h2>Cards with text overlay</h2>
+            <p class="heading-details">
+                In this card we have Out of Stock text over image of card.
+            </p>
+            <div class="card-container">
+                <div class="card">
+                    <div class="badge-section"></div>
+                    <span class="badge-best-seller display-none">Best seller</span>
+                    <span class="display-none">
+                        <i class="far fa-times-circle cross-icon"></i>
+                    </span>
+                    <span class="out-of-stock">
+                        Out Of Stock
+                    </span>
+                    <div class="card-main-section">
+                        <img src="/images/IMG_20220205_233718.png" class="product-img" alt="">
+                        <main class="middle">
+                            <p class="para">Apple</p>
+                            <div class="small-1">iPhone 13 (256GB) - Midnight</div>
+                            <div class="small-2">₹78900
+                                <span class="real-price">MRP: ₹79900(1% OFF)</span>
+                            </div>
+                        </main>
+                        <div class="btn-section">
+                            <button class="cart-button">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C52%2C18%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-section%2522%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%21--here%252Cbest%2520seller%2520badge%2520and%2520cross%2520icon%2520is%2520optional%2520and%2520disabled%2520for%2520%250A%2520%2520%2520this%2520card%252Cyou%2520can%2520active%2520these%2520by%2520removing%2520%2522display-none%2522%2520class--%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522badge-best-seller%2520display-none%2522%253EBest%2520seller%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522display-none%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-times-circle%2520cross-icon%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522out-of-stock%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520Out%2520Of%2520Stock%250A%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-main-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FURL-of-image%2522%2520class%253D%2522product-img%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmain%2520class%253D%2522middle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para%2522%253EApple%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small-1%2522%253EiPhone%252013%2520%28256GB%29%2520-%2520Midnight%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small-2%2522%253E%25E2%2582%25B978900%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522real-price%2522%253EMRP%253A%2520%25E2%2582%25B979900%281%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fmain%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 562px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr class="hr-margin">
+            <h2>Text only cards</h2>
+            <p class="heading-details">Simple Card is the one that contains a title, a descriptive text. To use the Card
+                Component, card-title, and card-text inside a div with class card.
+            </p>
+            <div class="card-container">
+                <div class="card text-card">
+                    <div class="card-main-section ">
+                        <main class="middle">
+                            <p class="para ">T-20 World Cup</p>
+                            <div class="small-1">The 2022 ICC Men's T20 World Cup is scheduled to be the eighth ICC
+                                Men's T20 World Cup
+                                tournament, scheduled to be played in October and November 2022 in Australia.</div>
+                        </main>
+                    </div>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C52%2C18%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-main-section%2520%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cmain%2520class%253D%2522middle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para%2520%2522%253ET-20%2520World%2520Cup%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small-1%2522%253EThe%25202022%2520ICC%2520Men%27s%2520T20%2520World%2520Cup%2520is%2520scheduled%2520to%2520be%2520the%2520eighth%2520ICC%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Men%27s%2520T20%2520World%2520Cup%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520tournament%252C%2520scheduled%2520to%2520be%2520played%2520in%2520October%2520and%2520November%25202022%2520in%2520Australia.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fmain%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 245px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr class="hr-margin">
+            <h2>Horizontal cards</h2>
+            <p class="heading-details">Simple Card is the one that contains a title, a descriptive text. To use the Card
+                Component, card-title, and card-text inside a div with class card.
+            </p>
+            <div class="card-container">
+                <div class="card flex horizontal-card">
+                    <div class="card-main-section flex">
+                        <img src="/images/IMG_20220205_233718.png" class="product-img horizontal-img" alt="">
+                        <main class="middle horizontal-middle">
+                            <p class="para">Apple</p>
+                            <div class="small-1">iPhone 13 (256GB) - Midnight</div>
+                            <div class="small-2">₹78900
+                                <span class="real-price">MRP: ₹79900(1% OFF)
+                                </span>
+                            </div>
+                            <div class="btn-section btn-end">
+                                <button class="cart-button horizontal-btn">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </main>
+                    </div>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C52%2C18%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520flex%2520horizontal-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-main-section%2520flex%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FURL-of-image%2522%2520class%253D%2522product-img%2520horizontal-img%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cmain%2520class%253D%2522middle%2520horizontal-middle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para%2522%253EApple%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small-1%2522%253EiPhone%252013%2520%28256GB%29%2520-%2520Midnight%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small-2%2522%253E%25E2%2582%25B978900%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522real-price%2522%253EMRP%253A%2520%25E2%2582%25B979900%281%2525%2520OFF%29%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-section%2520btn-end%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart-button%2520horizontal-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520Cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fmain%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 394px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr class="hr-margin">
+            <h2>Card with shadow</h2>
+            <p class="heading-details">Simple Card is the one that contains a title, a descriptive text. To use the Card
+                Component, card-title, and card-text inside a div with class card.
+            </p>
+            <div class="card-container">
+                <div class="card shadow-card">
+                    <div class="badge-section"></div>
+                    <span class="badge-best-seller">Best seller</span>
+                    <span class="display-none">
+                        <i class="far fa-times-circle cross-icon "></i>
+                    </span>
+                    <spna class="out-of-stock">
+                        Out Of Stock
+                    </spna>
+                    <div class="card-main-section">
+                        <img src="/images/IMG_20220205_233718.png" class="product-img" alt="">
+                        <main class="middle">
+                            <p class="para">Apple</p>
+                            <div class="small-1">iPhone 13 (256GB) - Midnight</div>
+                            <div class="small-2">₹78900
+                                <span class="real-price">MRP: ₹79900(1% OFF)</span>
+                            </div>
+                        </main>
+                        <div class="btn-section">
+                            <button class="cart-button">
+                                Add to cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C52%2C18%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520shadow-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522badge-section%2522%253E%253C%252Fdiv%253E%250A%2520%2520%253C%21--here%252Cbest%2520seller%2520badge%252C%2520cross%2520icon%2520and%2520out%2520of%2520stock%2520is%2520optional%2520and%2520disabled%2520%2520%2520%250A%2520%2520for%2520this%2520card%252Cyou%2520can%2520active%2520these%2520by%2520removing%2520%2522display-none%2522%2520class--%253E%250A%2520%2520%253Cspan%2520class%253D%2522badge-best-seller%2522%253EBest%2520seller%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522display-none%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-times-circle%2520cross-icon%2520%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Cspan%2520class%253D%2522out-of-stock%2522%253E%250A%2520%2520%2520%2520%2520%2520Out%2520Of%2520Stock%250A%2520%2520%253C%252Fspan%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-main-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252FURL-of-image%2522%2520class%253D%2522product-img%2522%2520alt%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cmain%2520class%253D%2522middle%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522para%2522%253EApple%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small-1%2522%253EiPhone%252013%2520%28256GB%29%2520-%2520Midnight%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522small-2%2522%253E%25E2%2582%25B978900%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522real-price%2522%253EMRP%253A%2520%25E2%2582%25B979900%281%2525%2520OFF%29%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fmain%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522btn-section%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522cart-button%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Add%2520to%2520cart%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 562px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </main>
+    </div>
+    <div class="footer-link-container"><a href="/components/button/button.html" class="footer-link"> < Button</a>
+        <a href="/components/image/image.html" class="footer-link">Image ></a>
+    </div>
+    <footer class="name-footer">
+        <p class="footer-text">Design and developed by <span class="text-primary">tushar goyal</span></p>
+    </footer>
+</body>
+
+</html>
