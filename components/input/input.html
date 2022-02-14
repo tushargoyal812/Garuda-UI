@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="input.css">
+    <script src="https://kit.fontawesome.com/108bfd668b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="landing-header">
+        <nav class="navbar">
+            Garuda UI
+            <ul class="nav-items">
+                <li><a class="nav-icons anchor-style pointer" href="/documentation/documentation.html">documentation</a>
+                </li>
+            </ul>
+            <div class="social">
+                <a href="https://github.com/tushargoyal812" class="nav-icons anchor-style"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://twitter.com/tushargoyal29" class="nav-icons anchor-style"><i
+                        class="fab fa-twitter-square"></i></a>
+                <a href="https://www.linkedin.com/in/tushargoyal29/" class="nav-icons anchor-style"><i
+                        class="fab fa-linkedin"></i></a>
+            </div>
+        </nav>
+    </header>
+    <div class="main-with-sidebar">
+        <aside class="sidebar-wrapper">
+            <div class="sidebar">
+                <h1>Get started</h1>
+                <hr class="hr-margin">
+                <ul class="sidebar-list">
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Introduction</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Color</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="">Typography</a></li>
+                </ul>
+                <h1>Components</h1>
+                <hr class="hr-margin">
+                <ul class="sidebar-list">
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/avatar/avatar.html">Avatar</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/alert/alert.html">Alert</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/badge/badge.html">Badge</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/button/button.html">Button</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="/components/cards/card.html">Cards</a>
+                    </li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/image/image.html">Image</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/input/input.html">Input</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/input/input.html">Lists</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/input/input.html">Navigation</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/input/input.html">Modal</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/input/input.html">Ratings</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links"
+                            href="/components/input/input.html">Toast</a></li>
+                    <li class="sidebar-items"><a class="anchor-style links" href="/components/input/input.html">grid</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <main class="main-section">
+            <h1 class="headings">inputs</h1>
+            <p class="heading-details">
+                Inputs are necessary for user interaction with the website. Inputs are used to take information from the
+                user, and then save the data to the server, accordingly.
+            </p>
+            <hr class="hr-margin">
+            <h2>textbox</h2>
+            <p class="heading-details">
+                Square Images are the square shaped, with a default dimension of
+            </p>
+            <div class="input-parent-container mg-auto flex flex-direction-col p-1 align-items">
+
+                <label for="" class="input-label">User Name</label>
+                <input type="text" class="text-input" placeholder="enter your name here">
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C52%2C18%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Clabel%2520for%253D%2522%2522%2520class%253D%2522input-label%2522%253EUser%2520Name%253C%252Flabel%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522text-input%2522%2520placeholder%253D%2522enter%2520your%2520name%2520here%2522%253E"
+                style="width: 100%; height: 96px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr class="hr-margin">
+            <h2>with validation and errors style</h2>
+            <p class="heading-details">
+                Round Images are the circular, with a default dimension of
+            </p>
+            <div class="input-parent-container mg-auto flex flex-direction-col p-1 align-items">
+
+                <div class="input-container">
+                    <label for="" class="input-label wrong-password">Password</label>
+                    <input type="text" class="text-input error-input" placeholder="">
+                    <div class="error-validation">Wrong password.Try again</div>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C52%2C18%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522input-label%2520wrong-password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522text-input%2520error%2522%2520placeholder%253D%2522%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522error-validation%2522%253EWrong%2520password.Try%2520again%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 152px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr class="hr-margin">
+            <h2>with validation and success style</h2>
+            <p class="heading-details">
+                Round Images are the circular, with a default dimension of
+            </p>
+            <div class="input-parent-container mg-auto flex flex-direction-col p-1 align-items">
+
+                <div class="input-container">
+                    <label for="" class="input-label success-password">Password</label>
+                    <input type="text" class="text-input success-input" placeholder="">
+                    <div class="success-validation">Success</div>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%2855%2C52%2C18%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%2520%253Clabel%2520for%253D%2522%2522%2520class%253D%2522input-label%2520success-password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522text-input%2520success%2522%2520placeholder%253D%2522%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522success-validation%2522%253ESuccess%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 100%; height: 152px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+        </main>
+    </div>
+    <footer class="name-footer">
+        <p class="footer-text">Design and developed by <span class="text-primary">tushar goyal</span></p>
+    </footer>
+</body>
+
+</html>
