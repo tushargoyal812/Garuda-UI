@@ -2,8 +2,7 @@
 
 
 .list-container {
-    width: 28rem;
-    padding: 2rem;
+    padding: 2rem 0rem;
     border: 2px solid var(--gray-color);
     border-radius: 5px;
     background-color: var(--bg-color);
@@ -24,14 +23,17 @@
 .list-parent {
     text-decoration: none;
     list-style: none;
+    display: flex;
+    flex-direction: column;
 }
 
 .list-child {
-    padding: 0.5rem;
+    padding: 0.5rem 0rem;
     cursor: pointer;
     border-radius: 5px;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .list-child:hover {
@@ -40,8 +42,8 @@
 
 
 .notification-list {
-    width: 28rem;
-    padding: 1rem;
+    width: 18rem;
+    padding: 0.2rem;
     background-color: var(--white-color);
     box-shadow: 2px 2px 5px var(--gray-color);
 }

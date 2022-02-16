@@ -2,7 +2,6 @@
 
 
 .rating-container{
-    width: 20rem;
     border: 2px solid var(--gray-color);
     border-radius: 5px;
     text-align: center;

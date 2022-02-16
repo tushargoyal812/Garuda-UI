@@ -24,8 +24,7 @@
     width: 22rem;
     text-align: center;
     padding: 1rem;
-    height: 100vh;
-    overflow-y: scroll;
+    height: 65rem;
     flex-shrink: 0;
     box-shadow: 2px 2px 5px var(--gray-color);
 }
@@ -48,7 +47,7 @@
 .main-section {
     color: var(--secondary-color);
     line-height: 1.5rem;
-    padding: 2rem;
+    margin: 1rem;
     flex-grow: 1;
 }
 

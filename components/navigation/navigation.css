@@ -5,6 +5,9 @@
     border: 2px solid var(--gray-color);
     border-radius: 5px;
     background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    padding: 2rem 1rem;
 }
 
 .e-com-navbar {
@@ -22,8 +25,8 @@
 }
 
 .e-com-header {
-    width: 100%;
     box-shadow: 2px 2px 5px var(--gray-color);
+    width: 100%;
 }
 
 .text-primary {
@@ -58,15 +61,14 @@
 
 .search-input{
     margin: 1rem 0rem;
-    padding: 0.5rem 2.5rem;
+    padding: 0.5rem 1rem;
     font-size: 1.2rem;
     border: 2px solid var(--gray-color);
     border-radius: 2px;
+    outline: none;
+    width: 15rem;
 }
 
-.search-input{
-    outline: none;
-}
 
 .login-btn{
     padding: 0.7rem 1.2rem;
