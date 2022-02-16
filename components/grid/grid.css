@@ -4,7 +4,6 @@
 
 
 .grid-2-container{
-    width: 25rem;
     border: 2px solid var(--gray-color);
     margin: auto;
     border-radius: 5px;
@@ -23,7 +22,6 @@
 }
 
 .grid-3-container{
-    width: 25rem;
     border: 2px solid var(--gray-color);
     margin: auto;
     border-radius: 5px;
