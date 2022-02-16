@@ -1,0 +1,45 @@
+@import url('/index.css');
+
+
+
+.modal-container{
+    border: 2px solid var(--gray-color);
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    padding: 1rem;
+}
+
+.modal{
+    width: 25rem;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+    text-align: center;
+    background-color: var(--white-color);
+    box-shadow: 2px 2px 5px var(--gray-color);
+}
+
+.modal-title{
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.modal-body{
+    padding: 2rem;
+    color: var(--gray-color);
+}
+
+
+.modal-footer{
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.modal-link{
+    text-decoration: none;
+    width: 5rem;
+    border: 2px solid var(--secondary-color);
+    border-radius: 3px;
+    color: var(--secondary-color);
+}
