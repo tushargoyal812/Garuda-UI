@@ -2,7 +2,8 @@
 
 
 .image-container {
-    width: 60%;
+    display: flex;
+    justify-content: center;
     border: 2px solid gray;
     border-radius: 5px;
     background-color: var(--bg-color);
@@ -15,6 +16,6 @@
 
 .round {
     border-radius: 50%;
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
 }
