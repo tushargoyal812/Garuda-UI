@@ -1,0 +1,42 @@
+@import url('/index.css');
+
+
+
+
+.grid-2-container{
+    width: 25rem;
+    border: 2px solid var(--gray-color);
+    margin: auto;
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    padding: 1rem;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-2-child{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+}
+
+.grid-3-container{
+    width: 25rem;
+    border: 2px solid var(--gray-color);
+    margin: auto;
+    border-radius: 5px;
+    background-color: var(--bg-color);
+    padding: 1rem;
+    display: grid;
+    gap: 0.5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-3-child{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    text-align: center;
+}
