@@ -1,2 +1,1 @@
-# Garuda-UI
-this is a component library
+[Garuda-UI | Component Library](https://garuda-ui.netlify.app/)
