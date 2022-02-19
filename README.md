@@ -45,3 +45,5 @@ Garuda-UI uses Font awesome icons. Copy the given link and paste it in the tag b
 ## Documentation
 The documentation resides in the [Indroduction](https://github.com/tushargoyal812/Garuda-UI/tree/development/documentation) directory. Detailed documentation can be found [here](https://garuda-ui.netlify.app/documentation/documentation.html).
 
+
+
