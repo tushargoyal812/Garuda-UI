@@ -1,6 +1,6 @@
 [Garuda-UI | Component Library](https://garuda-ui.netlify.app/)
 
-Create is a component library based on flex and grid to build responsive UI faster.
+Garuda-UI is a component library based on flex and grid to build responsive UI faster.
 
 ![image](/images/landing.png)
 
