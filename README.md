@@ -15,13 +15,6 @@ In order to use the Create ui library in your project, copy the below link and p
 
 ```
 
-Garuda-UI uses Font awesome icons. Copy the given link and paste it in the tag before the link mentioned above.
-
-```
-  <script src="https://kit.fontawesome.com/108bfd668b.js" crossorigin="anonymous"></script>
-
-```
-
 # What's included?
 
 ## Helpers
