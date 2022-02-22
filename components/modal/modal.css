@@ -17,7 +17,7 @@
     text-align: center;
     background-color: var(--white-color);
     box-shadow: 2px 2px 5px var(--gray-color);
-    /* left: 50vw; */
+    z-index: 9;
     top: 0;
 }
 

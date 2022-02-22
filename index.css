@@ -146,10 +146,11 @@ html {
     position:fixed;
     left: -100%;
     background-color: #fff;
-    z-index: 1;
+    z-index: 5;
     transition: all 0.5s ease-in-out;
-    height: 100%;
+    height: 100vh;
     overflow-y: scroll;
+    padding-bottom: 8rem;
 }
 
 .nav-icons-home{
