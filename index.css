@@ -134,6 +134,7 @@ html {
 }
 
 .footer-icon-container{
+    margin-top: 8rem;
     gap: 1rem;
     background-color: var(--primary-color);
 }
