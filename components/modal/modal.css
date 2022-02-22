@@ -11,11 +11,14 @@
 
 .modal{
     width: 17rem;
+    position: fixed;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-radius: 3px;
     text-align: center;
     background-color: var(--white-color);
     box-shadow: 2px 2px 5px var(--gray-color);
+    /* left: 50vw; */
+    top: 0;
 }
 
 .modal-title{
