@@ -97,6 +97,19 @@
     font-size: 1rem;
 }
 
+.navbar-demo{
+    padding: 1rem;
+    width: 100%;
+    background-color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--bg-color);
+    border-bottom-left-radius: 16px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .ecom-badge{
     border-radius: 50%;
     width: 1.4rem;
